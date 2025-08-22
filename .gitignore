@@ -1,4 +1,6 @@
-#.NET / Visual Studio
+# ---------------------------------------------------------
+# .NET / Visual Studio
+# ---------------------------------------------------------
 .vs/
 *.user
 *.suo
@@ -6,7 +8,7 @@
 *.sln.docstates
 *.userprefs
 
-#Build results
+# Build results
 [Dd]ebug/
 [Rr]elease/
 x64/
@@ -19,7 +21,7 @@ bld/
 [Ll]og/
 [Ll]ogs/
 
-#Visual Studio cache/options
+# Visual Studio cache/options
 *.dbmdl
 *.dbproj.schemaview
 *.pdb
@@ -37,16 +39,18 @@ bld/
 *.idb
 *.tmp
 
-#Publish files
+# Publish files
 *.Publish.xml
 *.pubxml
 *.publishproj
 *.publishsettings
 
-Rider
+# Rider IDE
 .idea/
 
-#Node / React (TypeScript)
+# ---------------------------------------------------------
+# Node / React (TypeScript frontend)
+# ---------------------------------------------------------
 node_modules/
 dist/
 build/
@@ -56,13 +60,15 @@ out/
 coverage/
 *.log
 
-#IDE specific
+# IDE specific
 .vscode/
 *.swp
 *.DS_Store
 Thumbs.db
 
-#Env files (store secrets outside Git!)
+# ---------------------------------------------------------
+# Env files (store secrets outside Git!)
+# ---------------------------------------------------------
 .env
 .env.local
 .env.development.local
