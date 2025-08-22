@@ -7,7 +7,7 @@
     <RootNamespace>Task_Manager.Server</RootNamespace>
     <SpaRoot>..\task-manager.client</SpaRoot>
     <SpaProxyLaunchCommand>npm run dev</SpaProxyLaunchCommand>
-    <SpaProxyServerUrl>https://localhost:54041</SpaProxyServerUrl>
+    <SpaProxyServerUrl>https://localhost:54890</SpaProxyServerUrl>
   </PropertyGroup>
 
   <ItemGroup>

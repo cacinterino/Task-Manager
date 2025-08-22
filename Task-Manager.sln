@@ -5,7 +5,7 @@ VisualStudioVersion = 17.13.35806.99 d17.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "task-manager.client", "task-manager.client\task-manager.client.esproj", "{F047D210-5016-B7E0-123B-3EF98689986C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task-Manager.Server", "Task-Manager.Server\Task-Manager.Server.csproj", "{1352ADA3-2CAF-4394-A19E-A2FD36053EA3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task-Manager.Server", "Task-Manager.Server\Task-Manager.Server.csproj", "{D3CB9386-C054-486A-BF2E-730485B6DCE0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,15 +19,15 @@ Global
 		{F047D210-5016-B7E0-123B-3EF98689986C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F047D210-5016-B7E0-123B-3EF98689986C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F047D210-5016-B7E0-123B-3EF98689986C}.Release|Any CPU.Deploy.0 = Release|Any CPU
-		{1352ADA3-2CAF-4394-A19E-A2FD36053EA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1352ADA3-2CAF-4394-A19E-A2FD36053EA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1352ADA3-2CAF-4394-A19E-A2FD36053EA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1352ADA3-2CAF-4394-A19E-A2FD36053EA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3CB9386-C054-486A-BF2E-730485B6DCE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3CB9386-C054-486A-BF2E-730485B6DCE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3CB9386-C054-486A-BF2E-730485B6DCE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3CB9386-C054-486A-BF2E-730485B6DCE0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {D947F7AD-E915-4A77-9682-DB8894E1D381}
+		SolutionGuid = {2D5470AA-93CF-40D9-BB93-BBAEF0CC1ED5}
 	EndGlobalSection
 EndGlobal
