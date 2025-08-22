@@ -1,26 +1,70 @@
-# Logs
-logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
-
-node_modules
-dist
-dist-ssr
-*.local
-
-# Editor directories and files
+#.NET / Visual Studio
 .vs/
-*/.vs/
-.vscode/*
-!.vscode/extensions.json
-.idea
-.DS_Store
+*.user
 *.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+#Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+#Visual Studio cache/options
+*.dbmdl
+*.dbproj.schemaview
+*.pdb
+*.cache
+*.ilk
+*.obj
+*.pch
+*.ipch
+*.aps
+*.ncb
+*.opendb
+*.sdf
+*.tlog
+*.lastbuildstate
+*.idb
+*.tmp
+
+#Publish files
+*.Publish.xml
+*.pubxml
+*.publishproj
+*.publishsettings
+
+Rider
+.idea/
+
+#Node / React (TypeScript)
+node_modules/
+dist/
+build/
+.cache/
+.next/
+out/
+coverage/
+*.log
+
+#IDE specific
+.vscode/
+*.swp
+*.DS_Store
+Thumbs.db
+
+#Env files (store secrets outside Git!)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
